@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+  }
+
 :root {
 	--color-primary: #d73953;
 	--color-black: #090909;
@@ -21,10 +25,6 @@
 	--section-tagline-transform: uppercase;
 	--section-title-margin: 0;
 	--section-title-color: var(--color-black);
-}
-
-* {
-	box-sizing: border-box;
 }
 
 html {
