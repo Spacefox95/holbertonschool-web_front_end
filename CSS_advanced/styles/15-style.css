@@ -1,3 +1,8 @@
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
 * {
 	box-sizing: border-box;
   }
@@ -25,11 +30,6 @@
 	--section-tagline-transform: uppercase;
 	--section-title-margin: 0;
 	--section-title-color: var(--color-black);
-}
-
-html {
-	scroll-behavior: smooth;
-	font-size: 62.5%;
 }
 
 body {
