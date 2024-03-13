@@ -149,7 +149,7 @@ a:active {
 }
 
 .nav .nav-link::before {
-	content: empty;
+	content: "";
 	position: absolute;
 	top: 0;
 	left:0;
@@ -158,7 +158,7 @@ a:active {
 	height: 0.02rem;
 }
 
-.nav .nav-link::before .nav-item:hover {
+.nav .nav-item:hover .nav-link::before {
 	background-color: var(--color-primary);
 	width: 100%;
 }
