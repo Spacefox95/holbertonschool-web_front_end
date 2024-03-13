@@ -202,14 +202,14 @@ ul.row {
 	background-color : var(--color-black);
 }
 
-.footer-adress {
-	color: var(--text-color);
+.footer-address {
+    color: var(--text-color);
 }
 
 .social-link {
-	display: block;
+    display: block;
 }
 
 .social-link > svg {
-	fill: var(--text-color);
+    fill: var(--text-color);
 }
