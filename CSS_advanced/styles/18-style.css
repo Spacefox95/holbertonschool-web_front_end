@@ -213,9 +213,9 @@ template {
 	--nav-item-font-family: var(--font-family-title);
 	--nav-item-font-weight: var(--font-weight-bold);
 	--nav-item-font-size: var(--font-size-medium);
-	--nav-item-letter-spacing: var(--font-size-medium);
-	--nav-item-display: 4%;
-	--nav-item-margin: inline-block;
+	--nav-item-letter-spacing: 4%;
+	--nav-item-display: inline-block;
+	--nav-item-margin: 0 0 3rem;
 	--nav-item-link-hover: var(--color-primary);
 }
 
@@ -251,12 +251,12 @@ body {
 }
 
 .nav .nav_item {
-	font-family: nav-item-font-family;
-	font-weight: nav-item-font-weight;
-	font-size: nav-item-font-size;
-	letter-spacing: nav-item-letter-spacing;
-	display: nav-item-display;
-	margin: nav-item-margin;
+	font-family: var(--nav-item-font-family);
+	font-weight: var(--nav-item-font-weight);
+	font-size: var(--nav-item-font-size);
+	letter-spacing: var(--nav-item-letter-spacing);
+	display: var(--nav-item-display);
+	margin: var(--nav-item-margin);
 }
 
 .nav .nav-link {
