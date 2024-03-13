@@ -240,7 +240,7 @@ a:active {
 	left: -0.1rem;
 	right: -0.1rem;
 	z-index: 1;
-	transition: var(--transition-duration) var(--transition-cubic-bezier);
+	transition: var(–-transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
@@ -276,7 +276,7 @@ a:active {
 
 .card-work:hover .card-image {
 	transform: scale(1.2);
-	transition: var(--transition-duration) var(--transition-cubic-bezier);
+	transition: var(–-transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
