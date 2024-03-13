@@ -219,10 +219,11 @@ a:active {
 	position: absolute;
 	top: -0.1rem;
 	left: -0.1rem;
+	right: -0.1rem;
 	z-index: 1;
 }
 
-.card-work .card-inner:hover {
+.card-work:hover .card-inner {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -234,13 +235,13 @@ a:active {
 	position: relative;
 }
 
-.card-work .card-title a {
+.card-title a {
 	display: block;
 	text-decoration: none;
 	padding-top: 45%;
 }
 
-.card-work .card-title a::after {
+.card-title a::after {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -249,7 +250,7 @@ a:active {
 	content: "";
 }
 
-.card-work .card-title:hover {
+.card-work:hover .card-title {
 	opacity: 1;
 }
 
