@@ -89,7 +89,7 @@ a:active {
 	border: var(--button-border);
 	font-size: var(--button-font-size);
 	color: var(--button-color);
-	text-decoration: var(--button-hover-text-decoration);
+	text-decoration: var(--button-text-decoration);
 }
 
 .button:hover {
