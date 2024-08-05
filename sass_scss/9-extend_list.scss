@@ -1,0 +1,16 @@
+/* Extended class */
+%font-shared {
+	font-size: 12px;
+}
+
+.info, .success, .warning {
+	@extend %font-shared;
+}
+
+.success {
+	color: #00FF00;
+}
+
+.warning {
+	color: #FF0000;
+}
