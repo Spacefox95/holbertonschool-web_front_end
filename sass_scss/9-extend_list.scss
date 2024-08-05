@@ -1,10 +1,10 @@
 /* Extended class */
-%font-shared {
+.info {
 	font-size: 12px;
 }
 
 .info, .success, .warning {
-	@extend %font-shared;
+	@extend .info;
 }
 
 .success {
