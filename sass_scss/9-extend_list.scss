@@ -3,7 +3,7 @@
 	font-size: 12px;
 }
 
-.info, .success, .warning {
+.success, .warning {
 	@extend .info;
 }
 
