@@ -795,7 +795,7 @@ ul.row {
 	list-style: none;
 }
 
-.tag-list [class*='li'] {
+.tag-list li {
 	display: inline;
 }
 
