@@ -803,6 +803,6 @@ ul.row {
 	content: ", ";
 }
 
-.tag-list:last-child li::after {
+.tag-list li:last-child::after {
 	content: "";
 }
