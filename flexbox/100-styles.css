@@ -808,7 +808,7 @@ ul.row {
 	content: "";
 }
 
-[class*=post-content] img {
+.post-content img {
 	width: 100%;
 	height: auto;
 }
