@@ -813,7 +813,7 @@ ul.row {
 	height: auto;
 }
 
-.post-content::after {
+.post-content > p {
 	font-size: var(--font-size-x-large);
 }
 
