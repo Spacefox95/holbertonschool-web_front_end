@@ -410,7 +410,7 @@ ul.row {
 		--section-body-padding: 2rem 0 0;
 	}
 
-	.ul.row,
+	ul.row,
 	.row {
 		flex-direction: column;
 		margin: 0;
@@ -517,6 +517,7 @@ ul.row {
 	padding: 2.5rem;
 	position: relative;
 	user-select: none;
+	display: none;
 }
 
 .header .menu-icon .navicon {
@@ -663,19 +664,20 @@ ul.row {
 	min-height: 35vh;
 }
 
-@media (max-width: 767x) {
+@media (max-width: 767px) {
 	.section-hero {
-		margin: -0.1rem;
+		margin: -0.1rem 0;
 	}
 
 	.hero-homepage {
-		background-position: 85%;
+		background-position: 85% 0;
 	}
 
 	.section-hero .section-body {
 		padding: 2rem;
 	}
 }
+
 
 /* Section Latest news
       ============================= */
@@ -1151,33 +1153,34 @@ textarea:valid:not(:placeholder-shown) {
 
 /* menu btn */
 
+/* menu btn */
 .header .menu-btn {
 	display: none;
 }
 
-.menu-btn:checked {
+.header .menu-btn:checked~.navbar-menu {
 	display: block;
 }
 
-.menu-btn .navbar-menu .nav {
+.header .menu-btn:checked~.navbar-menu .nav {
 	max-height: 100%;
 	overflow: inherit;
 }
 
-.header .menu-btn:checked+.menu-icon .navicon {
+.header .menu-btn:checked~.menu-icon .navicon {
 	background: transparent;
 }
 
-.header .menu-btn:checked+.menu-icon .navicon::before {
+.header .menu-btn:checked~.menu-icon .navicon::before {
 	transform: rotate(-45deg);
 }
 
-.header .menu-btn:checked+.menu-icon .navicon::after {
+.header .menu-btn:checked~.menu-icon .navicon::after {
 	transform: rotate(45deg);
 }
 
-.header .menu-btn:checked+.menu-icon .navicon::before,
-.header .menu-btn:checked+.menu-icon .navicon::after {
+.header .menu-btn:checked~.menu-icon .navicon::before,
+.header .menu-btn:checked~.menu-icon .navicon::after {
 	top: 0;
 }
 
@@ -1210,8 +1213,4 @@ textarea:valid:not(:placeholder-shown) {
 	.header-logo {
 		flex-basis: 79%;
 	}
-}
-
-.header .menu-icon {
-	display: none;
 }
