@@ -1,7 +1,7 @@
 # Advanced CSS
 
 ## Description
-This repository is dedicated to mastering advanced CSS concepts and techniques to enhance web design. Throughout this project, you'll explore a variety of CSS features, from selectors and properties to animations and responsive design. The goal is to develop a solid understanding of CSS fundamentals while applying advanced styling techniques to create visually appealing web pages.
+This repository is dedicated to mastering advanced CSS concepts and techniques to enhance web design. Throughout this project, I'll explore a variety of CSS features, from selectors and properties to animations and responsive design. The goal is to develop a solid understanding of CSS fundamentals while applying advanced styling techniques to create visually appealing web pages.
 
 ## Concepts
 
