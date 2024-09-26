@@ -1,4 +1,4 @@
-# holbertonschool Web Front-end
+# Holberton school Web Front-end
 
 ## Description
 This repository is dedicated to learning advanced Web front-end techniques. It includes a deep dive into various topics that enhance web design and development skills without the use of CSS frameworks.
