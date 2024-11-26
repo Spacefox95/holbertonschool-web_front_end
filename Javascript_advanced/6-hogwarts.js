@@ -27,11 +27,16 @@ class studentHogwarts {
 
 let harry = new studentHogwarts();
 harry.name = "Harry";
-harry.rewardStudent(4);
+harry.rewardStudent();
+harry.rewardStudent();
+harry.rewardStudent();
+harry.rewardStudent();
 console.log(harry.getScore());
 
 let draco = new studentHogwarts();
 draco.name = "Draco";
-draco.rewardStudent(1);
-draco.penalizeStudent(3);
-console.log(getScore(draco));
+draco.rewardStudent();
+draco.penalizeStudent();
+draco.penalizeStudent();
+draco.penalizeStudent();
+console.log(draco.getScore());
