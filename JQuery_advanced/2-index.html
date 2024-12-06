@@ -14,7 +14,7 @@
 <body>
 	<script>
 		$(document).ready(function createFamilyTree() {
-			const table = $("<table>" + "<th>" + "Firstname" + "</th>" + "<th>" + "Lastname" + "</table>");
+			const table = $("<table>" + "<thead>"+ "<tr>" + "<th>" + "Firstname" + "</th>" + "<th>" + "Lastname" + "</tr>" + "</thead>" + "<tbody>" + "<tr>" + "<td>" + "Paulette" + "</td>" + "<td>" + "Salva"+ "</td>" + "<tr>" + "<td>" + "Antoine" + "</td>" + "<td>" + "Salva"+ "</td>" + "</tbody>" +"</table>");
 			$("body").append(table);
 		});
 		
